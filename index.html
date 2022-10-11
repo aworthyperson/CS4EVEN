@@ -73,7 +73,7 @@
     </head>
     <body>
         <div id="heading">
-            <h1 id=title> A form to record your thermal comfort expierence in CSE2 </h1>
+            <h3 id=title> A form to record your thermal comfort expierence in CSE2 </h3>
           
         </div>
         <form id="form">
@@ -89,6 +89,29 @@
                        placeholder="Enter your name" />
             </div>
 
+            <div class="form-control">
+                <label for="age" id="label-age">
+                    Age
+                </label>
+     
+                <!-- Input Type Text -->
+                <input type="text"
+                       id="age"
+                       placeholder="Enter your age" />
+            </div>
+
+            <div class="form-control">
+                <label for="role" id="label-role">
+                    Enter your gender?
+                </label>
+                 
+                <!-- Dropdown options -->
+                <select name="role" id="role">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
 
         </form>
 
