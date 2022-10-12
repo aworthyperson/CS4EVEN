@@ -33,11 +33,11 @@
     font-size: 2.2rem;
     text-align: center;
     line-height: 1.2;
-    padding: .4rem;
+    padding: .6rem;
   }
 
   #description {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     text-align: center;
     padding: .2rem;
   }
@@ -52,7 +52,7 @@
     background: #22d87d;
     color: #fff;
     padding: .7rem;
-    font-size: 1.0 rem;
+    font-size: .80 rem;
     cursor: pointer;
   }
 
@@ -64,7 +64,7 @@
   width: 100%;
   padding: .7rem;
   border-radius: 6px;
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   border: none;
 }
 
