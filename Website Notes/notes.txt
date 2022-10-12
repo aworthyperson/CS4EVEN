@@ -1,0 +1,16 @@
+Ask about in survery: 
+
+# These inform metobolic rate of occupants 
+Age
+Gender
+Height
+Weight
+Identifier email
+
+Clothing level 
+Past activity level (10, 20, 30, and 60 minutes ago)
+
+Thermal sensation- Vote on the ASHRAE thermal sensation scale [-3 (cold) to 0 (neutral) +3 (hot)]
+Thermal acceptability- Thermal acceptability [acceptable, unacceptable]
+Thermal preference- Thermal preference [cooler, no change, warmer]
+Thermal comfort- Thermal comfort [1 (very uncomfortable) to 6 (very comfortable)]

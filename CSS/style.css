@@ -15,7 +15,7 @@
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #45b6eb;
+    background-color: #c5d5dc;
     color: #fff;
     font-size: 1.0vw;
    }
@@ -23,7 +23,7 @@
   #heading {
     max-width: 750px;
     margin: 4rem auto;
-    padding: .6rem;
+    padding: .4rem; 
   }
   #main {
       padding: 0% 20% 0% 20%;
@@ -33,7 +33,7 @@
     font-size: 2.2rem;
     text-align: center;
     line-height: 1.2;
-    padding: .6rem;
+    padding: .4rem;
   }
 
   #description {
@@ -52,7 +52,7 @@
     background: #22d87d;
     color: #fff;
     padding: .7rem;
-    font-size: 1.15rem;
+    font-size: 1.0 rem;
     cursor: pointer;
   }
 
@@ -64,7 +64,7 @@
   width: 100%;
   padding: .7rem;
   border-radius: 6px;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   border: none;
 }
 
