@@ -44,7 +44,7 @@
 
   #survey-form {
     background-color: #2222235d;
-    padding: 3rem 1.5rem;
+    padding: 3rem 2.5rem;
     border-radius: 7px;
   }
 
@@ -58,6 +58,7 @@
 
   #submit:hover {
     background: rgb(31, 174, 102);
+}
 
 .form {
   width: 100%;
