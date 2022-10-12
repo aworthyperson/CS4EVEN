@@ -15,15 +15,15 @@
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #c5d5dc;
+    background-color: #45b6eb;
     color: #fff;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
    }
 
   #heading {
     max-width: 750px;
     margin: 4rem auto;
-    padding: .4rem; 
+    padding: .6rem;
   }
   #main {
       padding: 0% 20% 0% 20%;
@@ -37,13 +37,13 @@
   }
 
   #description {
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     text-align: center;
     padding: .2rem;
   }
 
   #survey-form {
-    background-color: #2222235d;
+    background-color: #2222425d;
     padding: 3rem 2.5rem;
     border-radius: 7px;
   }
@@ -51,14 +51,14 @@
   #submit {
     background: #22d87d;
     color: #fff;
-    padding: .9rem;
-    font-size: .80 rem;
+    padding: .7rem;
+    font-size: 1.15rem;
     cursor: pointer;
   }
 
   #submit:hover {
-    background: rgb(31, 174, 102);
-}
+    background: rgb(9, 168, 89);
+  }
 
 .form {
   width: 100%;
