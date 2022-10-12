@@ -102,32 +102,28 @@
 
             <div class="form-control">
                 <label for="role" id="label-role">
-                    Enter your gender?
+                    Gender
                 </label>
                  
                 <!-- Dropdown options -->
                 <select name="role" id="role">
+                    <option value="" disabled selected>select an option</option>
                     <option value="female">Female</option>
                     <option value="male">Male</option>
                     <option value="other">Other</option>
                 </select>
             </div>
 
-            <div id="dropdown-div"><br>
-                <label id="dropdown-label"><strong>Programming language you are expert at: </strong></label><br>
-                <select id="dropdown" name="code-lang" class="form">
-                    <option value="C">C (Programming Language)</option>
-                    <option value="Python">Python</option>
-                    <option value="C#">C#</option>
-                    <option value="php">PHP</option>
-                    <option value="Js">Java Script</option>
-                    <option value="Go">Go (Programming Language)</option>
-                    <option value="ruby">Ruby on rails</option>
-                    <option value="C++">C++</option>
-                    <option value="Java">Java</option>
-                </select>
+             <!-- ------------------Radio Buttons-------------------------------- -->
+            <div>
+                <label for="Gender">Gender</label>
+                 <p>
+                 <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other
+             </p>
+            </div>
 
         </form>
-
     </body>
 </html>
