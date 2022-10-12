@@ -17,7 +17,7 @@
     background-size: cover;
     background-color: #45b6eb;
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 1.0vw;
    }
 
   #heading {
@@ -64,7 +64,7 @@
   width: 100%;
   padding: .7rem;
   border-radius: 6px;
-  font-size: 1.0rem;
+  font-size: 1.3rem;
   border: none;
 }
 
