@@ -12,118 +12,59 @@
 
         
         <div id="heading">
-            <h3 id=title> A form to record your thermal comfort expierence in CSE2 </h3>
-          
+            <h2 id=title>Record your thermal comfort expierence in CSE2</h2>
+            <p id="description">Thank you for taking your time to help us improve indoor building environments</p>
         </div>
 
         <div id="main">
             <form id="survey-form">
-            <div id="input-fields">
-                <label id="name-label"><b>Name:</b></label>
-                <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
-                <br>
-                <label id="email-label"><b>Email:</b></label>
-                <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
-                <br>
-                <label id="number-label"><b>Age:</b></label>
-                <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
-             </div>
-             <div id="dropdown-div"><br>
-                <label id="dropdown-label"><strong>Programming language you are expert at: </strong></label><br>
-                <select id="dropdown" name="code-lang" class="form">
-                    <option value="C">C (Programming Language)</option>
-                    <option value="Python">Python</option>
-                    <option value="C#">C#</option>
-                    <option value="php">PHP</option>
-                    <option value="Js">Java Script</option>
-                    <option value="Go">Go (Programming Language)</option>
-                    <option value="ruby">Ruby on rails</option>
-                    <option value="C++">C++</option>
-                    <option value="Java">Java</option>
-                </select>
-             </div>
+
              <div id="button-area">
                  <br>
-                <label id="job-label"><b>Employment Status:</b></label><br>
-                <input type="radio" class="radio-inline" name="gender" value="employed" checked> Full-time job holder.(Employed)<br>
-                <input type="radio" class="radio-inline" name="gender" value="freelancer"> Part-time job holder.(Freelancer)<br>
-                <input type="radio" class="radio-inline" name="gender" value="applier"> Looking for a job.(Applier)<br>
-                <input type="radio" class="radio-inline" name="gender" value="unemployed"> I am a student.(Unemployed)
+                <label id="thermalacceptability-label"><b>Thermal Acceptability:</b></label><br>
+                <input type="radio" class="radio-inline" value="Acceptable" checked> Acceptable<br>
+                <input type="radio" class="radio-inline" value="Unacceptable"> Unacceptable<br>
               </div>
-              <div id="button-area"><br>
-                <label id="os-label"><b>Operating system experience: </b></label><br>
-                <input type="checkbox" name="os1" value="windows" checked> I am experienced with Windows-OS<br>
-                <input type="checkbox" name="os2" value="linux"> I am experienced with Linux-OS<br>
-                <input type="checkbox" name="0s3" value="mac"> I am experienced with Mac-OS<br>
-              </div>
+
+              <div id="button-area">
+                <br>
+               <label id="thermalpreference-label"><b>Thermal Preference:</b></label><br>
+               <input type="radio" class="radio-inline" value="cooler"> Cooler<br>
+               <input type="radio" class="radio-inline" value="no change"checked> No change<br>
+               <input type="radio" class="radio-inline" value="warmer"> Warmer<br>
+             </div>
+
     
               <div id="dropdown"><br><br>
-                <label id="dropdown-label"><strong>Programming language you wanna be expert: </strong></label><br>
+                <label id="dropdown-label"><strong> Gender </strong></label><br>
                 <select id="dropdown" name="code-lang" class="form"><br><br>
-                    <option value="C">C (Programming Language)</option>
-                    <option value="Python">Python</option>
-                    <option value="C#">C#</option>
-                    <option value="php">PHP</option>
-                    <option value="Js">Java Script</option>
-                    <option value="Go">Go (Programming Language)</option>
-                    <option value="ruby">Ruby on rails</option>
-                    <option value="C++">C++</option>
-                    <option value="Java">Java</option>
-                </select>
-             </div>
-              <div id="button-area"><br><br>
-                <label id="os-label"><b>Latest technology experience:</b></label><br>
-                <input type="checkbox" name="tech1" value="flutter"> Flutter UI<br>
-                <input type="checkbox" name="tech2" value="nodejs"> Node.js<br>
-                <input type="checkbox" name="tech3" value="tnflow"> Tensorflow<br>
-                <input type="checkbox" name="tech3" value="git"> Github<br>
-                <input type="checkbox" name="tech3" value="devops"> Dev-Ops<br>
-              </div>
-    
-    
-              <div id="ending"><br><br>
-                <label id="comments-label">Do you have any suggestion about this survey?</label><br>
-                <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
-                <input id="submit" type="submit"  class="form">
-              </div>
-
-        <!form id="form">
-            <div class="form-control">
-                <label for="name" id="label-name">
-                    Name
-                </label>
-     
-                <!-- Input Type Text -->
-                <input type="text"
-                       id="Name"
-                       placeholder="Enter your name (optional)" />
-            </div>
-
-            <div class="form-control">
-                <label for="age" id="label-age">
-                    Age
-                </label>
-     
-                <!-- Input Type Text -->
-                <input type="text"
-                       id="age"
-                       placeholder="Enter your age (optional)" />
-            </div>
-
-            <div class="form-control">
-                <label for="role" id="label-role">
-                    Gender
-                </label>
-                 
-                <!-- Dropdown options -->
-                <select name="role" id="role">
                     <option value="" disabled selected>Select an option</option>
                     <option value="female">Female</option>
                     <option value="male">Male</option>
                     <option value="other">Other</option>
                 </select>
+             </div>
+
+
+              <div id="optional-fields">
+                <label id="age-label"><b>Age (optional):</b></label>
+                <input id="Age" type="number" name="number" class="form" required placeholder="Enter your age (optional):"><br>
+                <br>
+                <label id="height-label"><b>Height (in inches) (optional):</b></label>
+                <input id="height" type="number" name="number" class="form" required placeholder="Enter your height in inches (optional):"><br>
+                <br>
+                <label id="weight-label"><b>Weight (in pounds) (optional):</b></label>
+                <input id="weight" type="number" name="number" class="form" required placeholder="Enter your weight in pounds (optional):"><br>
+                <br>
+                <label id="email-label"><b>Please share your email (optional):</b></label>
+                <input id="Email" type="name" name="name" class="form" required placeholder="Enter your email (optional)"><br>
             </div>
 
+            <div id="ending"><br><br>
+                <label id="comments-label">Do you have any aditional comments about the CSE2 space?</label><br>
+                <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br>
+                <input id="submit" type="submit"  class="form">
+            </div>
         </form>
     </body>
 </html>
