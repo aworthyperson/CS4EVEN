@@ -17,7 +17,7 @@
     background-size: cover;
     background-color: #c5d5dc;
     color: #fff;
-    font-size: 1.0vw;
+    font-size: 1.6vw;
    }
 
   #heading {
@@ -44,7 +44,7 @@
 
   #survey-form {
     background-color: #2222425d;
-    padding: 3rem 2.5rem;
+    padding: 3rem 1.5rem;
     border-radius: 7px;
   }
 
@@ -57,28 +57,13 @@
   }
 
   #submit:hover {
-    background: rgb(9, 168, 89);
-  }
-  input, textarea {
-    /* To make sure that all text field have the same font settings
-       By default, textarea are set with a monospace font */
-    /* font: 1em sans-serif; */
-  
-    /* To give the same size to all text field */
-    width: 200px;
-  
-  /*   -moz-box-sizing: border-box;
-         box-sizing: border-box; */
-  
-    /* To harmonize the look & feel of text field border */
-    border: 1px solid #999;
-  }
-  
+    background: rgb(31, 174, 102);
+
 .form {
   width: 100%;
   padding: .7rem;
   border-radius: 6px;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   border: none;
 }
 
