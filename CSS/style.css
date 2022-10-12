@@ -43,7 +43,7 @@
   }
 
   #survey-form {
-    background-color: #2222425d;
+    background-color: #2222235d;
     padding: 3rem 1.5rem;
     border-radius: 7px;
   }
@@ -51,7 +51,7 @@
   #submit {
     background: #22d87d;
     color: #fff;
-    padding: .7rem;
+    padding: .9rem;
     font-size: .80 rem;
     cursor: pointer;
   }
@@ -63,7 +63,7 @@
   width: 100%;
   padding: .7rem;
   border-radius: 6px;
-  font-size: 1.7rem;
+  font-size: 1.0rem;
   border: none;
 }
 
