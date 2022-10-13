@@ -30,35 +30,38 @@
              </div>
 
              <div class="slidecontainer"> <br>
-                <label id="thermalacceptability-label"><b>Thermal sensation [-3 (cold) to 0 (neutral) +3 (hot)]:</b></label><br>
+                <label id="thermalsensation-label"><b>Thermal sensation:</b></label><br>
                 <input type="range" min="-3" max="3" value="2" class="slider" id="myRange">
                 <div class="sliderticks">
-                    <p>-3 (cold)</p>
+                    <p>-3 cold</p>
                     <p>-2</p>
                     <p>-1</p>
-                    <p>0 (neutral)</p>
+                    <p>0 neutral</p>
                     <p>1</p>
                     <p>2</p>
-                    <p>3 (warm)</p>
+                    <p>3 warm</p>
                 </div>
             </div>
 
-            <div id="button-area"><br>
+            <div class="slidecontainer"> <br><br>
+                <label id="thermalcomfort-label"><b>Thermal Comfort:</b></label><br>
+                <input type="range" min="1" max="6" value="2" class="slider" id="myRange">
+                <div class="sliderticks">
+                    <p>1 very uncomfortable</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4 </p>
+                    <p>5</p>
+                    <p>6 very comfortable</p>
+                </div>
+            </div>
+
+            <div id="button-area"><br><br>
                 <label id="gender-label"><b>Gender:</b></label><br>
                 <input type="radio" class="radio-inline" value="female"checked>Female<br>
                 <input type="radio" class="radio-inline" value="male"> Male<br>
                 <input type="radio" class="radio-inline" value="other"> Other<br>
               </div>
-
-            <div id="dropdown"><br>
-                <label id="dropdown-label"><strong> Gender:</strong></label><br>
-                <select id="dropdown" name="code-lang" class="form"><br><br>
-                    <option value=""disabled selected >Select your gender</option>
-                    <option value="female">Female</option>
-                    <option value="male">Male</option>
-                    <option value="other">Other</option>
-                </select>
-             </div>
 
               <div id="optional-fields"><br>
                 <label id="age-label"><b>Age (optional):</b></label>

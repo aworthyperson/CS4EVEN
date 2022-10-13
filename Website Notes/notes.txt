@@ -1,16 +1,29 @@
 Ask about in survery: 
 
+Thermal acceptability- Thermal acceptability [acceptable, unacceptable]
+Thermal preference- Thermal preference [cooler, no change, warmer]
+Thermal sensation- Vote on the ASHRAE thermal sensation scale [-3 (cold) to 0 (neutral) +3 (hot)]
+Thermal comfort- Thermal comfort [1 (not very uncomfortable) to 6 (very comfortable)]
+
+
+Clothing level 
+Past activity level (10, 20, 30, and 60 minutes ago)
+
 # These inform metobolic rate of occupants 
 Age
 Gender
 Height
 Weight
 Identifier email
+Notes 
 
-Clothing level 
-Past activity level (10, 20, 30, and 60 minutes ago)
 
-Thermal sensation- Vote on the ASHRAE thermal sensation scale [-3 (cold) to 0 (neutral) +3 (hot)]
-Thermal acceptability- Thermal acceptability [acceptable, unacceptable]
-Thermal preference- Thermal preference [cooler, no change, warmer]
-Thermal comfort- Thermal comfort [1 (very uncomfortable) to 6 (very comfortable)]
+            <div id="dropdown"><br>
+                <label id="dropdown-label"><strong> Gender:</strong></label><br>
+                <select id="dropdown" name="code-lang" class="form"><br><br>
+                    <option value=""disabled selected >Select your gender</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select>
+             </div>

@@ -15,7 +15,7 @@
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #45b6eb;
+    background-color: #2b98f1;
     color: #fff;
     font-size: 1.2vw;
    }
@@ -43,7 +43,7 @@
   }
 
   #survey-form {
-    background-color: #2222425d;
+    background-color: #3f4243a1;
     padding: 3rem 2.5rem;
     border-radius: 7px;
   }
@@ -80,7 +80,7 @@
     height: 25px;
     background: #D3D3D3;
     outline: none;
-    opacity: 0.7;
+    opacity: 0.2;
     -webkit-transition: .2s;
     transition: opacity .2s;
   }
@@ -94,14 +94,14 @@
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #FF0000;
+    background: #2b98f1;
     cursor: pointer;
   }
   
   .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #FF0000;
+    background: #2b98f1;
     cursor: pointer;
   }
   
@@ -117,7 +117,7 @@
     justify-content: center;
     text-align: center;
     width: 1px;
-    background: #D3D3D3;
+    background: #f2f3f5;
     height: 10px;
     line-height: 40px;
     margin: 0 0 20px 0;
