@@ -47,16 +47,16 @@
                 <label id="thermalcomfort-label"><b>Thermal Comfort:</b></label><br>
                 <input type="range" min="1" max="6" value="2" class="slider" id="myRange">
                 <div class="sliderticks">
-                    <p>Uncomfortable</p>
+                    <p>uncomfortable</p>
                     <p></p>
                     <p></p>
                     <p></p>
                     <p></p>
-                    <p>Comfortable</p>
+                    <p>comfortable</p>
                 </div>
             </div>
 
-            <div id="button-area"><br><br>
+            <div id="button-area"><br>
                 <label id="gender-label"><b>Gender:</b></label><br>
                 <input type="radio" class="radio-inline" value="female"checked>Female<br>
                 <input type="radio" class="radio-inline" value="male"> Male<br>
@@ -65,17 +65,61 @@
 
 
             <div class="slidecontainer"> <br>
-                <label id="thermalcomfort-label"><b>Age:</b></label><br>
-                <input type="range" min="10" max="100" value="20" class="slider" step="10" list="steplist" id="myRange" oninput="this.nextElementSibling.value = this.value">
+                <label id="age-label"><b>Age:</b></label><br>
+                <input type="range" min="10" max="100" value="20" class="slider" step="1" list="steplist" id="myRange" oninput="this.nextElementSibling.value = this.value">
                 <output>20 </output>
             </div>
 
-        
+            <div class="options">
+                <label id="height-label"><b>Height:</b></label><br>
+                <input class="slider" type="range" min="0" max="100" step="5" list="steplist" value="50" />
+                <datalist id="steplist">
+                   <option>0</option>
+                   <option>5</option>
+                   <option>10</option>
+                   <option>15</option>
+                   <option>20</option>
+                   <option>25</option>
+                   <option>30</option>
+                   <option>35</option>
+                   <option>40</option>
+                   <option>45</option>
+                   <option>50</option>
+                   <option>55</option>
+                   <option>60</option>
+                   <option>65</option>
+                   <option>70</option>
+                   <option>75</option>
+                   <option>80</option>
+                   <option>85</option>
+                   <option>90</option>
+                   <option>95</option>
+                   <option>100</option>
+                   <option>105</option>
+                   <option>110</option>
+                   <option>115</option>
+                   <option>120</option>
+                   <option>125</option>
+                </datalist>
+                <div class="ticks">
+                    <span class="o_txt">4'8"</span>
+                  <span class="o_txt">4'10"</span>
+                  <span class="o_txt">5'</span>
+                  <span class="o_txt">5'2"</span>
+                  <span class="o_txt">5'4"</span>
+                  <span class="o_txt">5'6"</span>
+                  <span class="o_txt">5'8"</span>
+                  <span class="o_txt">5'10"</span>
+                  <span class="o_txt">6'</span>
+                  <span class="o_txt">6'2"</span>
+                  <span class="o_txt">6'4"</span>
+                  <span class="o_txt">6'6"</span>
+                  <span class="o_txt">6'8"</span>
+                </div>
+              </div>
+
 
             <div id="optional-fields"><br>
-                <label id="age-label"><b>Age (optional):</b></label>
-                <input id="Age" type="name" name="name" class="form" required placeholder="Enter your age"><br>
-                <br>
                 <label id="height-label"><b>Height, in inches (optional):</b></label>
                 <input id="height" type="name" name="name" class="form" required placeholder="Enter your height in inches"><br>
                 <br>

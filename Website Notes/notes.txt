@@ -3,7 +3,7 @@ Ask about in survery:
 Thermal acceptability- Thermal acceptability [acceptable, unacceptable]
 Thermal preference- Thermal preference [cooler, no change, warmer]
 Thermal sensation- Vote on the ASHRAE thermal sensation scale [-3 (cold) to 0 (neutral) +3 (hot)]
-Thermal comfort- Thermal comfort [1 (not very uncomfortable) to 6 (very comfortable)]
+Thermal comfort- Thermal comfort [1 (very uncomfortable) to 6 (very comfortable)]
 
 
 Clothing level 
