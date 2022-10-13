@@ -1,7 +1,6 @@
 <html lang = "en" >
     <head >
         <title> CS4EVN Proj </title> 
-        <!meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
         <meta name="description" content="CS4EVEN Thermal Comfort Research Study, University of Washington">
@@ -63,15 +62,22 @@
                 <input type="radio" class="radio-inline" value="other"> Other<br>
             </div>
 
-
             <div class="slidecontainer"> <br>
-                <label id="age-label"><b>Age:</b></label><br>
-                <input type="range" min="10" max="100" value="20" class="slider" step="1" list="steplist" id="myRange" oninput="this.nextElementSibling.value = this.value">
+                <label id="age-label"><b>Age (years):</b></label><br>
+                <input type="range" min="0" max="100" value="20" class="slider" step="1" list="steplist" id="myRange" oninput="this.nextElementSibling.value = this.value">
+                <div class="sliderticks">
+                    <p>0</p>
+                    <p>20</p>
+                    <p>40</p>
+                    <p>60</p>
+                    <p>80</p>
+                    <p>100</p>
+                </div>
                 <output>20 </output>
             </div>
 
-            <div class="options">
-                <label id="height-label"><b>Height:</b></label><br>
+            <div class="options"> <br>
+                <label id="height-label"><b>Height (feet' inches"):</b></label><br>
                 <input class="slider" type="range" min="1" max="25" step="1" list="steplist" value="12" />
                 <div class="sliderticks">
                     <p>4'8"</p>
@@ -104,9 +110,6 @@
 
 
             <div id="optional-fields"><br>
-                <label id="height-label"><b>Height, in inches (optional):</b></label>
-                <input id="height" type="name" name="name" class="form" required placeholder="Enter your height in inches"><br>
-                <br>
                 <label id="weight-label"><b>Weight, in pounds (optional):</b></label>
                 <input id="weight" type="name" name="name" class="form" required placeholder="Enter your weight in pounds"><br>
                 <br>
