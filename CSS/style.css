@@ -108,26 +108,6 @@
     cursor: pointer; /* Cursor on hover */
   }
 
-  // Ticks 
-.ticks {
-  display: flex;
-  justify-content: space-between;
-  
-  //We need left & right padding that's half the width of the range thumb, so all ticks align with the center of the thumb
-  padding: $unit $unit*2;
-}
-.tick {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 1px;
-  background: gray;
-  
-  //Cap the height of the tick & push text down, so the tick renders as a little line and the text doesn't overlap the line. Also add margin, so the container expands enough that the next element you'll add won't overlap the ticks.
-  height: $unit;
-  line-height: $unit * 5;
-  margin-bottom: $unit*2;
-}
   
 
   @media only screen and (max-width:480px){
