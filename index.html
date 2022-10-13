@@ -29,10 +29,27 @@
                <input type="radio" class="radio-inline" value="warmer"> Warmer<br>
              </div>
 
-             <div class="slidecontainer">
+             <div class="slidecontainer"> <br>
                 <label id="thermalacceptability-label"><b>Thermal sensation [-3 (cold) to 0 (neutral) +3 (hot)]:</b></label><br>
                 <input type="range" min="-3" max="3" value="50" class="slider" id="myRange">
+                <div class="ticks">
+                    <!-- You could generate the ticks based on your min, max & step values. -->
+                    <span class="tick">-3 (cold)</span>
+                    <span class="tick">-2</span>
+                    <span class="tick">-1</span>
+                    <span class="tick">0 (neutral)</span>
+                    <span class="tick">1</span>
+                    <span class="tick">2</span>
+                    <span class="tick">3</span>
+                </div>
             </div>
+
+            <div id="button-area"><br>
+                <label id="gender-label"><b>Gender:</b></label><br>
+                <input type="radio" class="radio-inline" value="female"checked>Female<br>
+                <input type="radio" class="radio-inline" value="male"> Male<br>
+                <input type="radio" class="radio-inline" value="other"> Other<br>
+              </div>
 
             <div id="dropdown"><br>
                 <label id="dropdown-label"><strong> Gender:</strong></label><br>
