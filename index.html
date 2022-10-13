@@ -20,9 +20,9 @@
                 <label id="thermalacceptability-label"><b>Thermal Acceptability:</b></label><br>
                 <input type="radio" class="radio-inline" value="Acceptable" checked> Acceptable<br>
                 <input type="radio" class="radio-inline" value="Unacceptable"> Unacceptable<br>
-              </div>
+            </div>
 
-              <div id="button-area"><br>
+            <div id="button-area"><br>
                <label id="thermalpreference-label"><b>Thermal Preference:</b></label><br>
                <input type="radio" class="radio-inline" value="cooler"> Cooler<br>
                <input type="radio" class="radio-inline" value="no change"checked> No change<br>
@@ -47,12 +47,12 @@
                 <label id="thermalcomfort-label"><b>Thermal Comfort:</b></label><br>
                 <input type="range" min="1" max="6" value="2" class="slider" id="myRange">
                 <div class="sliderticks">
-                    <p>very uncomfortable</p>
+                    <p>Uncomfortable</p>
                     <p></p>
                     <p></p>
                     <p></p>
                     <p></p>
-                    <p>very comfortable</p>
+                    <p>Comfortable</p>
                 </div>
             </div>
 
@@ -61,23 +61,18 @@
                 <input type="radio" class="radio-inline" value="female"checked>Female<br>
                 <input type="radio" class="radio-inline" value="male"> Male<br>
                 <input type="radio" class="radio-inline" value="other"> Other<br>
-              </div>
-
-
-              <div class="slidecontainer"> <br>
-                <label id="thermalcomfort-label"><b>Thermal Comfort:</b></label><br>
-                <input type="range" min="1" max="6" value="3" class="slider" id="myRange">
-                <div class="sliderticks">
-                    <p>very uncomfortable</p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p>very comfortable</p>
-                </div>
             </div>
 
-              <div id="optional-fields"><br>
+
+            <div class="slidecontainer"> <br>
+                <label id="thermalcomfort-label"><b>Age:</b></label><br>
+                <input type="range" min="10" max="100" value="20" class="slider" step="10" list="steplist" id="myRange" oninput="this.nextElementSibling.value = this.value">
+                <output>20 </output>
+            </div>
+
+        
+
+            <div id="optional-fields"><br>
                 <label id="age-label"><b>Age (optional):</b></label>
                 <input id="Age" type="name" name="name" class="form" required placeholder="Enter your age"><br>
                 <br>
