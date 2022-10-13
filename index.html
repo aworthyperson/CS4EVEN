@@ -29,7 +29,12 @@
                <input type="radio" class="radio-inline" value="warmer"> Warmer<br>
              </div>
 
-              <div id="dropdown"><br>
+             <div class="slidecontainer">
+                <label id="thermalacceptability-label"><b>Thermal sensation [-3 (cold) to 0 (neutral) +3 (hot)]:</b></label><br>
+                <input type="range" min="-3" max="3" value="50" class="slider" id="myRange">
+            </div>
+
+            <div id="dropdown"><br>
                 <label id="dropdown-label"><strong> Gender:</strong></label><br>
                 <select id="dropdown" name="code-lang" class="form"><br><br>
                     <option value=""disabled selected >Select your gender</option>
