@@ -10,7 +10,7 @@
 
   body {
     font-family: 'Raleway', sans-serif;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background2.jpg");
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@
     height: 25px;
     background: #D3D3D3;
     outline: none;
-    opacity: 0.2;
+    opacity: 0.9;
     -webkit-transition: .2s;
     transition: opacity .2s;
   }
@@ -117,7 +117,7 @@
     justify-content: center;
     text-align: center;
     width: 1px;
-    background: #f2f3f5;
+    background: #ffffff;
     height: 10px;
     line-height: 40px;
     margin: 0 0 20px 0;
