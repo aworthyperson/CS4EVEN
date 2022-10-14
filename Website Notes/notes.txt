@@ -14,6 +14,11 @@ Past activity level (10, 20, 30, and 60 minutes ago)
 # https://www.engineeringtoolbox.com/met-metabolic-rate-d_733.html
 
 
+What sensor are you closest to in the room?
+How many others are in the room?
+Where are you from? 
+
+
 # These inform metobolic rate of occupants 
 Age
 Gender

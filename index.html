@@ -69,7 +69,7 @@
             </div>
 
             <div id="button-area"><br>
-                <label id="clo-label"><b>Check all that you are wearing today: </b></label><br>
+                <label id="clo-label"><b>Check all that you are wearing right now: </b></label><br>
                 <input type="checkbox" name="os1" value="long underwear"> Long Underwear (pants)<br>
                 <input type="checkbox" name="0s2" value="under shirt"> Under shirt (top)<br>
                 <input type="checkbox" name="0s3" value="t shirt"> T-shirt<br>
@@ -84,6 +84,33 @@
                 <input type="checkbox" name="0s11" value="jacket"> Jacket<br>
                 <input type="checkbox" name="0s12" value="jacket"> Heavy Coat<br>
               </div>
+
+              <div class="slidecontainer"> <br>
+                <label id="where-label"><b>What sensor are you closest to in the room:</b></label><br>
+                <input type="range" min="0" max="10" class="slider" value="1" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
+                <output>0 </output>
+                <div class="sliderticks">
+                    <p>0</p>
+                    <p>2</p>
+                    <p>4</p>
+                    <p>6</p>
+                    <p>8</p>
+                    <p>10</p>
+                </div>
+            </div>
+
+            <div class="slidecontainer"> <br>
+                <label id="occu-label"><b>Including yourself, how many people are in the room:</b></label><br>
+                <input type="range" min="0" max="20" class="slider" value="0" step="1" list="steplist" id="myRangeO" oninput="this.nextElementSibling.value = this.value">
+                <output>0 </output>
+                <div class="sliderticks">
+                    <p>0</p>
+                    <p>5</p>
+                    <p>10</p>
+                    <p>15</p>
+                    <p>20</p>
+                </div>
+            </div>
 
             <div id="button-area"><br>
                 <label id="gender-label"><b>Gender:</b></label><br>
@@ -157,6 +184,11 @@
             <div id="optional-fields"><br>
                 <label id="email-label"><b>Please share your email (optional):</b></label>
                 <input id="Email" type="name" name="email" class="form" required placeholder="Enter your email"><br>
+            </div>
+
+            <div id="optional-fields"><br>
+                <label id="history-label"><b>Please share where you are from:</b></label>
+                <input id="from" type="name" name="from" class="form" required placeholder="Enter where you are from (City)"><br>
             </div>
 
             <div id="ending"><br><br>
