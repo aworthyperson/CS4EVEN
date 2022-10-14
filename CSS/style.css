@@ -94,14 +94,14 @@
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #1066ad;
+    background: #2a9af6;
     cursor: pointer;
   }
   
   .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #1066ad;
+    background: #2a9af6;
     cursor: pointer;
   }
   
