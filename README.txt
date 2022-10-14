@@ -7,6 +7,9 @@ By Amanda Worthy and Joe Breda
 2. The UWASH Outdoor Data folder contains and reads in Outdoor weather observations from the University of Washington Atmospheric Science Building Weather Station from https://mesowest.utah.edu/cgi-bin/droman/download_api2.cgi?stn=UWASH&hour1=20&min1=48&timetype=LOCAL&unit=0&graph=0 using the API link https://download.synopticdata.com/
 
 
+Link to the thermal comfort database 2:
+https://github.com/CenterForTheBuiltEnvironment/ashrae-db-II
+
 
 The ENV Amanda has been using
 https://uwgda-jupyterbook.readthedocs.io/en/latest/resources/conda.html
