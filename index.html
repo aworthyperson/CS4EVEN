@@ -44,7 +44,7 @@
 
             <div class="slidecontainer"> <br>
                 <label id="thermalcomfort-label"><b>Thermal Comfort:</b></label><br>
-                <input type="range" min="1" max="6" value="2" class="slider" id="myRange">
+                <input type="range" min="1" max="6" value="3" class="slider" id="myRange">
                 <div class="sliderticks">
                     <p>uncomfortable</p>
                     <p></p>
@@ -111,7 +111,7 @@
             <div class="slidecontainer"> <br>
                 <label id="weight-label"><b>Weight (pounds):</b></label><br>
                 <input type="range" min="0" max="300" value="150" class="slider" step="1" list="steplist" id="myRange" oninput="this.nextElementSibling.value = this.value">
-                <output>20 </output>
+                <output>150 </output>
                 <div class="sliderticks">
                     <p>0</p>
                     <p>50</p>
@@ -126,13 +126,13 @@
 
             <div id="optional-fields"><br>
                 <label id="email-label"><b>Please share your email (optional):</b></label>
-                <input id="Email" type="name" name="name" class="form" required placeholder="Enter your email"><br>
+                <input id="Email" type="name" name="name" class="form-control" required placeholder="Enter your email"><br>
             </div>
 
             <div id="ending"><br><br>
                 <label id="comments-label">Do you have any aditional comments about the CSE2 space?</label><br>
                 <textarea class="form" placeholder="Please feel free to write more about your expierence..."></textarea><br>
-                <input id="submit" type="submit"  class="form">
+                <input id="submit" type="submit"  class="form-control">
             </div>
         </form>
     </body>

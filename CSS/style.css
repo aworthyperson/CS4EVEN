@@ -64,7 +64,7 @@
   width: 100%;
   padding: .7rem;
   border-radius: 6px;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   border: none;
 }
 
@@ -122,10 +122,20 @@
     line-height: 40px;
     margin: 0 0 20px 0;
   }
-  .o_txt {
-    flex: 1;
-  }
-  
+          /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+
 
   @media only screen and (max-width:480px){
 
