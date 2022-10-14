@@ -1,6 +1,6 @@
 <html lang = "en" >
     <head >
-        <title> CS4EVN Proj </title> 
+        <title> UW CS4EVN Thermal Comfort Survey</title> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
         <meta name="description" content="CS4EVEN Thermal Comfort Research Study, University of Washington">
@@ -30,7 +30,7 @@
 
              <div class="slidecontainer"> <br>
                 <label id="thermalsensation-label"><b>Thermal sensation:</b></label><br>
-                <input type="range" min="-3" max="3" value="0" class="slider" id="myRange">
+                <input type="range" min="-3" max="3" value="0" class="slider" id="myRangeTS">
                 <div class="sliderticks">
                     <p>cold</p>
                     <p></p>
@@ -44,14 +44,14 @@
 
             <div class="slidecontainer"> <br>
                 <label id="thermalcomfort-label"><b>Thermal Comfort:</b></label><br>
-                <input type="range" min="1" max="6" value="3" class="slider" id="myRange">
+                <input type="range" min="1" max="6" value="3" class="slider" id="myRangeTC">
                 <div class="sliderticks">
+                    <p></p>
                     <p>uncomfortable</p>
                     <p></p>
                     <p></p>
-                    <p></p>
-                    <p></p>
                     <p>comfortable</p>
+                    <p></p>
                 </div>
             </div>
 
@@ -64,7 +64,7 @@
 
             <div class="slidecontainer"> <br>
                 <label id="age-label"><b>Age (years):</b></label><br>
-                <input type="range" min="0" max="100" value="20" class="slider" step="1" list="steplist" id="myRange" oninput="this.nextElementSibling.value = this.value">
+                <input type="range" min="0" max="100" value="20" class="slider" step="1" list="steplist" id="myRangeA" oninput="this.nextElementSibling.value = this.value">
                 <output>20 </output>
                 <div class="sliderticks">
                     <p>0</p>
@@ -78,7 +78,7 @@
 
             <div class="options"> <br>
                 <label id="height-label"><b>Height (feet' inches"):</b></label><br>
-                <input class="slider" type="range" min="1" max="25" step="1" list="steplist" value="12" />
+                <input class="slider" type="range" min="56" max="80" step="1" list="steplist" value="68" />
                 <div class="sliderticks">
                     <p>4'8"</p>
                     <p></p>
@@ -110,7 +110,7 @@
 
             <div class="slidecontainer"> <br>
                 <label id="weight-label"><b>Weight (pounds):</b></label><br>
-                <input type="range" min="0" max="300" value="150" class="slider" step="1" list="steplist" id="myRange" oninput="this.nextElementSibling.value = this.value">
+                <input type="range" min="0" max="300" value="150" class="slider" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
                 <output>150 </output>
                 <div class="sliderticks">
                     <p>0</p>
@@ -126,13 +126,13 @@
 
             <div id="optional-fields"><br>
                 <label id="email-label"><b>Please share your email (optional):</b></label>
-                <input id="Email" type="name" name="name" class="form-control" required placeholder="Enter your email"><br>
+                <input id="Email" type="name" name="email" class="form" required placeholder="Enter your email"><br>
             </div>
 
             <div id="ending"><br><br>
                 <label id="comments-label">Do you have any aditional comments about the CSE2 space?</label><br>
                 <textarea class="form" placeholder="Please feel free to write more about your expierence..."></textarea><br>
-                <input id="submit" type="submit"  class="form-control">
+                <input id="submit" type="submit"  class="form">
             </div>
         </form>
     </body>
