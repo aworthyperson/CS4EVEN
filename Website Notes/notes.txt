@@ -11,6 +11,7 @@ Metobolic rate of subject
 Clothing level of subject 
 # https://www.engineeringtoolbox.com/clo-clothing-thermal-insulation-d_732.html
 Past activity level (10, 20, 30, and 60 minutes ago)
+# https://www.engineeringtoolbox.com/met-metabolic-rate-d_733.html
 
 
 # These inform metobolic rate of occupants 
