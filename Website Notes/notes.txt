@@ -5,9 +5,11 @@ Thermal preference- Thermal preference [cooler, no change, warmer]
 Thermal sensation- Vote on the ASHRAE thermal sensation scale [-3 (cold) to 0 (neutral) +3 (hot)]
 Thermal comfort- Thermal comfort [1 (very uncomfortable) to 6 (very comfortable)]
 
-
-Clothing level 
+Metobolic rate of subject 
+Clothing level of subject 
 Past activity level (10, 20, 30, and 60 minutes ago)
+air_movement_acceptability	Air movement acceptability [acceptable, unacceptable]
+air_movement_preference	Air movement preference [less, no change, more]
 
 # These inform metobolic rate of occupants 
 Age
@@ -15,8 +17,12 @@ Gender
 Height
 Weight
 Identifier email
-Notes 
 
+Notes:
+
+https://github.com/CenterForTheBuiltEnvironment/ashrae-db-II
+
+Code that may be useful: 
 
             <div id="dropdown"><br>
                 <label id="dropdown-label"><strong> Gender:</strong></label><br>

@@ -57,7 +57,7 @@
 
             <div id="button-area"><br>
                 <label id="gender-label"><b>Gender:</b></label><br>
-                <input type="radio" class="radio-inline" value="female"checked>Female<br>
+                <input type="radio" class="radio-inline" value="female"checked> Female<br>
                 <input type="radio" class="radio-inline" value="male"> Male<br>
                 <input type="radio" class="radio-inline" value="other"> Other<br>
             </div>
@@ -105,6 +105,21 @@
                     <p>6'6"</p>
                     <p></p>
                     <p>6'8"</p>
+                </div>
+            </div>
+
+            <div class="slidecontainer"> <br>
+                <label id="weight-label"><b>Weight (pounds):</b></label><br>
+                <input type="range" min="0" max="300" value="150" class="slider" step="1" list="steplist" id="myRange" oninput="this.nextElementSibling.value = this.value">
+                <output>20 </output>
+                <div class="sliderticks">
+                    <p>0</p>
+                    <p>50</p>
+                    <p>100</p>
+                    <p>150</p>
+                    <p>200</p>
+                    <p>250</p>
+                    <p>300</p>
                 </div>
             </div>
 
