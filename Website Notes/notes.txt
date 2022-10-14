@@ -9,6 +9,7 @@ air_movement_preference	Air movement preference [less, no change, more]
 
 Metobolic rate of subject 
 Clothing level of subject 
+# https://www.engineeringtoolbox.com/clo-clothing-thermal-insulation-d_732.html
 Past activity level (10, 20, 30, and 60 minutes ago)
 
 
