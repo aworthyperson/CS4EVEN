@@ -86,6 +86,20 @@
               </div>
 
               <div class="slidecontainer"> <br>
+                <label id="walk-label"><b>When is the last time you walked more than 100 meters (in minutes past)?</b></label><br>
+                <input type="range" min="0" max="150" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
+                <output>0 </output>
+                <div class="sliderticks">
+                    <p>0</p>
+                    <p>30</p>
+                    <p>60</p>
+                    <p>90</p>
+                    <p>120</p>
+                    <p>150+</p>
+                </div>
+            </div>
+
+              <div class="slidecontainer"> <br>
                 <label id="where-label"><b>What sensor are you closest to in the room:</b></label><br>
                 <input type="range" min="0" max="10" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
                 <output>0 </output>
