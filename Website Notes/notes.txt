@@ -10,14 +10,13 @@ air_movement_preference	Air movement preference [less, no change, more]
 Metobolic rate of subject 
 Clothing level of subject 
 # https://www.engineeringtoolbox.com/clo-clothing-thermal-insulation-d_732.html
+
 Past activity level (10, 20, 30, and 60 minutes ago)
 # https://www.engineeringtoolbox.com/met-metabolic-rate-d_733.html
-
 
 What sensor are you closest to in the room?
 How many others are in the room?
 Where are you from? 
-
 
 # These inform metobolic rate of occupants 
 Age
@@ -28,16 +27,17 @@ Identifier email
 
 Notes:
 
+ASHRAE database 
 https://github.com/CenterForTheBuiltEnvironment/ashrae-db-II
 
+Github google forms advice 
 
+https://github.com/levinunnink/html-form-to-google-sheet
+
+
+
+The URL to post to 
 https://script.google.com/macros/s/AKfycbwd6f3tAo_zDYJ9ADX2kJfxv7J_1V2fFkWwUaCnKxP0i4CrVeAsxWzMXQK0vWyljmxb/exec
-
-
-    <form 
-  method="POST" 
-  action="YOUR_WEBAPP_URL"
->
 
 
             <div id="button-area"><br>
@@ -66,17 +66,17 @@ https://script.google.com/macros/s/AKfycbwd6f3tAo_zDYJ9ADX2kJfxv7J_1V2fFkWwUaCnK
                 <input type="checkbox" name="long_underwear" value="long underwear"> Long Underwear (pants)<br>
                 <input type="checkbox" name="under_shirt" value="under shirt"> Under shirt (top)<br>
                 <input type="checkbox" name="t_shirt" value="t shirt"> T-shirt<br>
-                <input type="checkbox" name="os4" value="light long sleeve shirt"> Light Long Sleeve Shirt<br>
-                <input type="checkbox" name="os5" value="heavy long sleeve shirt"> Heavy Long Sleeve Shirt<br>
-                <input type="checkbox" name="0s6" value="shorts"> Shorts<br>
-                <input type="checkbox" name="0s13" value="shorts"> Skirt/ Dress<br>
-                <input type="checkbox" name="0s7" value="pants"> Pants<br>
-                <input type="checkbox" name="0s8" value="vest"> Vest<br>
-                <input type="checkbox" name="0s9" value="thin sweater"> Thin Sweater<br>
-                <input type="checkbox" name="0s10" value="thick sweater"> Thick Sweater<br>
-                <input type="checkbox" name="0s11" value="jacket"> Jacket<br>
-                <input type="checkbox" name="0s12" value="jacket"> Heavy Coat<br>
-                <input type="checkbox" name="0s13" value="sandles"> Sandles<br>
-                <input type="checkbox" name="0s14" value="shoes"> Shoes<br>
-                <input type="checkbox" name="0s15" value="boots"> Boots<br>
+                <input type="checkbox" name="lightls_shirt" value="light long sleeve shirt"> Light Long Sleeve Shirt<br>
+                <input type="checkbox" name="ls_shirt" value="heavy long sleeve shirt"> Heavy Long Sleeve Shirt<br>
+                <input type="checkbox" name="shorts" value="shorts"> Shorts<br>
+                <input type="checkbox" name="skirt" value="skirt"> Skirt/ Dress<br>
+                <input type="checkbox" name="pants" value="pants"> Pants<br>
+                <input type="checkbox" name="vest" value="vest"> Vest<br>
+                <input type="checkbox" name="thin_sweater" value="thin sweater"> Thin Sweater<br>
+                <input type="checkbox" name="thick_sweater" value="thick sweater"> Thick Sweater<br>
+                <input type="checkbox" name="jacket" value="jacket"> Jacket<br>
+                <input type="checkbox" name="heavy_coat" value="heavy coat"> Heavy Coat<br>
+                <input type="checkbox" name="sandles" value="sandles"> Sandles<br>
+                <input type="checkbox" name="shoes" value="shoes"> Shoes<br>
+                <input type="checkbox" name="boots" value="boots"> Boots<br>
               </div>
