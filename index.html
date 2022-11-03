@@ -1,9 +1,5 @@
 <html lang = "en" >
 
-<form 
-  method="POST" 
-  action="https://script.google.com/macros/s/AKfycbwd6f3tAo_zDYJ9ADX2kJfxv7J_1V2fFkWwUaCnKxP0i4CrVeAsxWzMXQK0vWyljmxb/exec"
->
     <head >
         <title> UW CS4EVN Thermal Comfort Survey</title> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,36 +15,39 @@
         </div>
 
         <div id="main">
-            <form id="survey-form">
+            <form id="survey-form"
+                method="POST" 
+                action="https://script.google.com/macros/s/AKfycbwd6f3tAo_zDYJ9ADX2kJfxv7J_1V2fFkWwUaCnKxP0i4CrVeAsxWzMXQK0vWyljmxb/exec">
+
              <div id="button-area">
                 <label id="thermalacceptability-label"><b> How tolerable is the room's temperature? </b></label><br>
-                <input type="radio" name="TAAnswer" value="Acceptable"> Acceptable<br>
-                <input type="radio" name="TAAnswer" value="Unacceptable"> Unacceptable<br>
+                <input type="radio" name="thermalacceptability" value="Acceptable"> Acceptable<br>
+                <input type="radio" name="thermalacceptability" value="Unacceptable"> Unacceptable<br>
             </div>
 
             <div id="button-area"><br>
                <label id="thermalpreference-label"><b> If you could, how would you change the room's temperature to make it more comfortable?</b></label><br>
-               <input type="radio" name="TPAnswer" value="cooler"> Make cooler<br>
-               <input type="radio" name="TPAnswer" value="no change"> No change<br>
-               <input type="radio" name="TPAnswer" value="warmer"> Make warmer<br>
+               <input type="radio" name="thermalpreference" value="cooler"> Make cooler<br>
+               <input type="radio" name="thermalpreference" value="no change"> No change<br>
+               <input type="radio" name="thermalpreference" value="warmer"> Make warmer<br>
              </div>
 
              <div id="button-area"><br>
-                <label id="amacceptability-label"><b> How tolerable is the room's air quality (ex. stuffyness, cleanliness, odors)?</b></label><br>
-                <input type="radio" name="AMAnswer" value="Acceptable"> Acceptable<br>
-                <input type="radio" name="AMAnswer" value="Unacceptable"> Unacceptable<br>
+                <label id="aqacceptability-label"><b> How tolerable is the room's air quality (ex. stuffyness, cleanliness, odors)?</b></label><br>
+                <input type="radio" name="aqacceptability" value="Acceptable"> Acceptable<br>
+                <input type="radio" name="aqacceptability" value="Unacceptable"> Unacceptable<br>
             </div>
 
             <div id="button-area"><br>
                <label id="ampreference-label"><b>If you could, how would you change the air movement speed to make the room more comfortable?</b></label><br>
-               <input type="radio" name="AMPAnswer" value="less"> Less air speed (less drafty)<br>
-               <input type="radio" name="AMPAnswer" value="no "> No change<br>
-               <input type="radio" name="AMPAnswer" value="more"> More air speed (more drafty)<br>
+               <input type="radio" name="ampreference" value="less"> Less air speed (less drafty)<br>
+               <input type="radio" name="ampreference" value="no "> No change<br>
+               <input type="radio" name="ampreference" value="more"> More air speed (more drafty)<br>
              </div>
 
              <div class="slidecontainer"> <br>
                 <label id="thermalsensation-label"><b>What thermal sensation do you feel?</b></label><br>
-                <input type="range" min="-3" max="3" value="0" class="slider" id="myRangeTS">
+                <input type="range" min="-3" max="3" value="0" class="slider" id="myRangeTS" name="thermalsensation">
                 <div class="sliderticks">
                     <p>cold</p>
                     <p></p>
@@ -62,7 +61,7 @@
 
             <div class="slidecontainer"> <br>
                 <label id="thermalcomfort-label"><b>How enjoyable is the rooms air temperature?</b></label><br>
-                <input type="range" min="1" max="6" value="3" class="slider" id="myRangeTC">
+                <input type="range" min="1" max="6" value="3" class="slider" id="myRangeTC" name="thermalcomfort">
                 <div class="sliderticks">
                     <p></p>
                     <p>uncomfortable</p>
@@ -73,29 +72,10 @@
                 </div>
             </div>
 
-            <div id="button-area"><br>
-                <label id="clo-label"><b>Check all that you are wearing right now: </b></label><br>
-                <input type="checkbox" name="os1" value="long underwear"> Long Underwear (pants)<br>
-                <input type="checkbox" name="0s2" value="under shirt"> Under shirt (top)<br>
-                <input type="checkbox" name="0s3" value="t shirt"> T-shirt<br>
-                <input type="checkbox" name="os4" value="light long sleeve shirt"> Light Long Sleeve Shirt<br>
-                <input type="checkbox" name="os5" value="heavy long sleeve shirt"> Heavy Long Sleeve Shirt<br>
-                <input type="checkbox" name="0s6" value="shorts"> Shorts<br>
-                <input type="checkbox" name="0s13" value="shorts"> Skirt/ Dress<br>
-                <input type="checkbox" name="0s7" value="pants"> Pants<br>
-                <input type="checkbox" name="0s8" value="vest"> Vest<br>
-                <input type="checkbox" name="0s9" value="thin sweater"> Thin Sweater<br>
-                <input type="checkbox" name="0s10" value="thick sweater"> Thick Sweater<br>
-                <input type="checkbox" name="0s11" value="jacket"> Jacket<br>
-                <input type="checkbox" name="0s12" value="jacket"> Heavy Coat<br>
-                <input type="checkbox" name="0s13" value="sandles"> Sandles<br>
-                <input type="checkbox" name="0s14" value="shoes"> Shoes<br>
-                <input type="checkbox" name="0s15" value="boots"> Boots<br>
-              </div>
 
               <div class="slidecontainer"> <br>
                 <label id="walk-label"><b>How many minutes ago did you walk over 100 meters - the length of a football field (in minutes past)?</b></label><br>
-                <input type="range" min="0" max="150" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
+                <input type="range" name="walk" min="0" max="150" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
                 <output>0 </output>
                 <div class="sliderticks">
                     <p>0</p>
@@ -109,7 +89,7 @@
 
               <div class="slidecontainer"> <br>
                 <label id="where-label"><b>What sensor are you closest to in the room?</b></label><br>
-                <input type="range" min="0" max="10" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
+                <input type="range" name="sensorc" min="0" max="10" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
                 <output>0 </output>
                 <div class="sliderticks">
                     <p>0</p>
@@ -123,7 +103,7 @@
 
             <div class="slidecontainer"> <br>
                 <label id="occu-label"><b>Including yourself, how many people are in the room?</b></label><br>
-                <input type="range" min="0" max="20" class="slider" value="0" step="1" list="steplist" id="myRangeO" oninput="this.nextElementSibling.value = this.value">
+                <input type="range" name="occupancy" min="0" max="20" class="slider" value="0" step="1" list="steplist" id="myRangeO" oninput="this.nextElementSibling.value = this.value">
                 <output>0 </output>
                 <div class="sliderticks">
                     <p>0</p>
@@ -136,14 +116,14 @@
 
             <div id="button-area"><br>
                 <label id="gender-label"><b>Gender:</b></label><br>
-                <input type="radio" name="GAnswer" value="female"> Female<br>
-                <input type="radio" name="GAnswer" value="male"> Male<br>
-                <input type="radio" name="GAnswer" value="other"> Non-Binary<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="other"> Non-Binary<br>
             </div>
 
             <div class="slidecontainer"> <br>
                 <label id="age-label"><b>Age (years):</b></label><br>
-                <input type="range" min="0" max="100" class="slider" value="20" step="1" list="steplist" id="myRangeA" oninput="this.nextElementSibling.value = this.value">
+                <input type="range" name="age" min="0" max="100" class="slider" value="20" step="1" list="steplist" id="myRangeA" oninput="this.nextElementSibling.value = this.value">
                 <output>20 </output>
                 <div class="sliderticks">
                     <p>0</p>
@@ -157,7 +137,7 @@
 
             <div class="options"> <br>
                 <label id="height-label"><b>Height (feet' inches"):</b></label><br>
-                <input class="slider" type="range" min="56" max="80" step="1" list="steplist" value="68" />
+                <input class="slider" name="height" type="range" min="56" max="80" step="1" list="steplist" value="68" />
                 <div class="sliderticks">
                     <p>4'8"</p>
                     <p></p>
@@ -189,7 +169,7 @@
 
             <div class="slidecontainer"> <br>
                 <label id="weight-label"><b>Weight (pounds):</b></label><br>
-                <input type="range" min="0" max="300" value="150" class="slider" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
+                <input type="range" name="weight" min="0" max="300" value="150" class="slider" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
                 <output>150 </output>
                 <div class="sliderticks">
                     <p>0</p>
@@ -209,15 +189,14 @@
 
             <div id="optional-fields"><br>
                 <label id="email-label"><b>Please share your email (optional):</b></label>
-                <input id="Email" type="name" name="email" class="form" required placeholder="Enter your email"><br>
+                <input id="Email" type="email" name="email" class="form" required placeholder="Enter your email"><br>
             </div>
 
             <div id="ending"><br>
                 <label id="comments-label">Do you have any aditional comments about the CSE2 space?</label><br>
-                <textarea class="form" placeholder="Please feel free to write more about your experience..."></textarea><br>
+                <textarea class="form" name="more" placeholder="Please feel free to write more about your experience..."></textarea><br>
                 <input id="submit" type="submit"  class="form">
             </div>
         </form>
     </body>
-</form>
 </html>
