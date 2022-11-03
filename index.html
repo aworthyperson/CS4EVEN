@@ -21,27 +21,27 @@
 
              <div id="button-area">
                 <label id="thermalacceptability-label"><b> How tolerable is the room's temperature? </b></label><br>
-                <input type="radio" name="thermal_acceptability" value="Acceptable" required="required"> Acceptable <br>
-                <input type="radio" name="thermal_acceptability" value="Unacceptable"> Unacceptable<br>
+                <input type="radio" name="thermal_acceptability" value="acceptable" required="required"> Acceptable <br>
+                <input type="radio" name="thermal_acceptability" value="unacceptable"> Unacceptable<br>
             </div>
 
             <div id="button-area"><br>
                <label id="thermalpreference-label"><b> If you could, how would you change the room's temperature to make it more comfortable?</b></label><br>
                <input type="radio" name="thermal_preference" value="cooler" required="required"> Make cooler<br>
-               <input type="radio" name="thermal_preference" value="no change"> No change<br>
+               <input type="radio" name="thermal_preference" value="no_change"> No change<br>
                <input type="radio" name="thermal_preference" value="warmer"> Make warmer<br>
              </div>
 
              <div id="button-area"><br>
                 <label id="aqacceptability-label"><b> How tolerable is the room's air quality (ex. stuffyness, cleanliness, odors)?</b></label><br>
-                <input type="radio" name="aq_acceptability" value="Acceptable" required="required"> Acceptable<br>
-                <input type="radio" name="aq_acceptability" value="Unacceptable"> Unacceptable<br>
+                <input type="radio" name="aq_acceptability" value="acceptable" required="required"> Acceptable<br>
+                <input type="radio" name="aq_acceptability" value="unacceptable"> Unacceptable<br>
             </div>
 
             <div id="button-area"><br>
                <label id="ampreference-label"><b>If you could, how would you change the air movement speed to make the room more comfortable?</b></label><br>
                <input type="radio" name="amovement_preference" value="less" required="required"> Less air speed (less drafty)<br>
-               <input type="radio" name="amovement_preference" value="no "> No change<br>
+               <input type="radio" name="amovement_preference" value="no_change"> No change<br>
                <input type="radio" name="amovement_preference" value="more"> More air speed (more drafty)<br>
              </div>
 
@@ -89,7 +89,7 @@
 
               <div class="slidecontainer"> <br>
                 <label id="where-label"><b>What sensor are you closest to in the room?</b></label><br>
-                <input type="range" name="sensorc" min="0" max="10" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
+                <input type="range" name="sensorclosest" min="0" max="10" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
                 <output>0 </output>
                 <div class="sliderticks">
                     <p>0</p>
@@ -185,7 +185,7 @@
 
             <div id="optional-fields"><br>
                 <label id="history-label"><b>Please share the name of your hometown (city):</b></label>
-                <input id="from" type="name" name="from" class="form" required placeholder="Enter where you are from"><br>
+                <input id="from" type="location" name="from" class="number" required placeholder="Enter where you are from (city)"><br>
             </div>
 
             <div id="optional-fields"><br>
