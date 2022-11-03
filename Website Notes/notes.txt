@@ -30,14 +30,11 @@ Notes:
 
 https://github.com/CenterForTheBuiltEnvironment/ashrae-db-II
 
-Code that may be useful: 
 
-            <div id="dropdown"><br>
-                <label id="dropdown-label"><strong> Gender:</strong></label><br>
-                <select id="dropdown" name="code-lang" class="form"><br><br>
-                    <option value=""disabled selected >Select your gender</option>
-                    <option value="female">Female</option>
-                    <option value="male">Male</option>
-                    <option value="other">Other</option>
-                </select>
-             </div>
+https://script.google.com/macros/s/AKfycbwd6f3tAo_zDYJ9ADX2kJfxv7J_1V2fFkWwUaCnKxP0i4CrVeAsxWzMXQK0vWyljmxb/exec
+
+
+    <form 
+  method="POST" 
+  action="YOUR_WEBAPP_URL"
+>
