@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_58ebf80874d645bc9b5a99faf2f014a6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_58ebf80874d645bc9b5a99faf2f014a6" ></div>
+        
+</body>
+<script>    
+    
+            var map_58ebf80874d645bc9b5a99faf2f014a6 = L.map(
+                "map_58ebf80874d645bc9b5a99faf2f014a6",
+                {
+                    center: [47.653538, -122.307672],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1b21ed6907fe4aa19a21ca8171dfb57b = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var marker_9436df3faf5b4fb8928fa5efcf1e86ab = L.marker(
+                [47.65330305, -122.3057918],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var div_icon_0e4955bc592f4380bd5738eab750bb20 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e\u003cb\u003ePaul Allen Building\u003c/div\u003e", "iconAnchor": [50, 0], "iconSize": [120, 300]});
+            marker_9436df3faf5b4fb8928fa5efcf1e86ab.setIcon(div_icon_0e4955bc592f4380bd5738eab750bb20);
+        
+    
+            var marker_98ebb2cc0abd48a8809b23b27656f2a6 = L.marker(
+                [47.65330305, -122.3057918],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var marker_7461cdf6ed0d45059233603085753b34 = L.marker(
+                [47.65270736, -122.3053259],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var div_icon_d8dc2c4cdcad4850967ba157a20bf1cd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e\u003cb\u003eMore Hall \u003c/div\u003e", "iconAnchor": [50, 0], "iconSize": [120, 300]});
+            marker_7461cdf6ed0d45059233603085753b34.setIcon(div_icon_d8dc2c4cdcad4850967ba157a20bf1cd);
+        
+    
+            var marker_4552cae56c3242bbbd1e9e3970c67274 = L.marker(
+                [47.65270736, -122.3053259],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var marker_beaa91b5020a4c8886489fab170301af = L.marker(
+                [47.65278065, -122.304423],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var div_icon_65b6ccc0d1604605ad126ba3a2f6d0b7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e\u003cb\u003eBill \u0026 Melinda Gates Center\u003c/div\u003e", "iconAnchor": [50, 0], "iconSize": [120, 300]});
+            marker_beaa91b5020a4c8886489fab170301af.setIcon(div_icon_65b6ccc0d1604605ad126ba3a2f6d0b7);
+        
+    
+            var marker_9125bfad805a4fc9aa264fbff2e55018 = L.marker(
+                [47.65278065, -122.304423],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var marker_5bdf0e0c8d064fb581d8779024e1f5f7 = L.marker(
+                [47.65402256, -122.3093334],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var div_icon_8a4c15371d0d455e87736be5e0282bb4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e\u003cb\u003eAtmospheric Sciences Building\u003c/div\u003e", "iconAnchor": [50, 0], "iconSize": [120, 300]});
+            marker_5bdf0e0c8d064fb581d8779024e1f5f7.setIcon(div_icon_8a4c15371d0d455e87736be5e0282bb4);
+        
+    
+            var marker_2ce34d13fd914270816ee432c6a6a206 = L.marker(
+                [47.65402256, -122.3093334],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var marker_bdae670ca64049b5bec4eb9fcd0d8448 = L.marker(
+                [47.65544475, -122.305287],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+    
+            var div_icon_8cd7c7c80ba9430ab73cb872544f6ee8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e\u003cb\u003eHusky Union Building\u003c/div\u003e", "iconAnchor": [50, 0], "iconSize": [120, 300]});
+            marker_bdae670ca64049b5bec4eb9fcd0d8448.setIcon(div_icon_8cd7c7c80ba9430ab73cb872544f6ee8);
+        
+    
+            var marker_385043b2f08d414ab494f35789e9d729 = L.marker(
+                [47.65544475, -122.305287],
+                {}
+            ).addTo(map_58ebf80874d645bc9b5a99faf2f014a6);
+        
+</script>
