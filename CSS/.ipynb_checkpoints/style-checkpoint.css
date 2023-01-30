@@ -1,0 +1,132 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* css reset */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("../images/background5.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #57b0f9;
+    color: #fff;
+    font-size: 1.2vw;
+   }
+
+  #heading {
+    max-width: 750px;
+    margin: 4rem auto;
+    padding: .6rem;
+  }
+  #main {
+      padding: 0% 20% 0% 20%;
+  }
+
+  #title {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 1.2;
+    padding: .6rem;
+  }
+
+  #description {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: .2rem;
+  }
+
+  #survey-form {
+    background-color: #2b2d2ea1;
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+  }
+
+  #submit {
+    background: #22d87d;
+    color: #fff;
+    padding: .7rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+
+  #submit:hover {
+    background: rgb(9, 168, 89);
+  }
+
+.form {
+  width: 100%;
+  padding: .7rem;
+  border-radius: 6px;
+  font-size: 1.8rem;
+  border: none;
+}
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #ffffff;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #2a9af6;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #2a9af6;
+    cursor: pointer;
+  }
+  
+  .sliderticks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  .sliderticks p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1px;
+    background: #ffffff;
+    height: 10px;
+    line-height: 40px;
+    margin: 0 0 20px 0;
+  }
+
+
+  @media only screen and (max-width:480px){
+
+  #main {
+    padding: 0% 0% 0% 0%;
+    }
+  }
