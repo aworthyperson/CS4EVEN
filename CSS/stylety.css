@@ -4,13 +4,13 @@
 /* css reset */
   *{
     margin: 0;
-    padding: 20;
+    padding: 40;
     box-sizing: border-box;
   }
 
   body {
     font-family: 'Raleway', sans-serif;
-    background-image: url("../images/background4.jpg");
+    background-image: url("../images/background.jpg");
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
