@@ -29,8 +29,8 @@
 
     <body>
         <div id="heading">
-            <h2 id=title>Record your indoor experience in CSE 605</h2>
-                <p id="description"> Please note, all questions pertain to your current comfort level in the room.  Thank you for taking your time to help us improve 
+            <h2 id=title>Please record your indoor experience in CSE 605</h2>
+                <p id="description"> Please note, all questions pertain to your current comfort level in the room. Thank you for taking your time to help us improve 
                     indoor building environments. </p>
         </div>
 
@@ -108,19 +108,15 @@
                 </div>
             </div>
 
-              <div class="slidecontainer"> <br>
-                <label id="where-label"><b>What sensor are you closest to in the room?</b></label><br>
-                <input type="range" name="sensorclosest" min="0" max="10" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
-                <output>0 </output>
-                <div class="sliderticks">
-                    <p>0</p>
-                    <p>2</p>
-                    <p>4</p>
-                    <p>6</p>
-                    <p>8</p>
-                    <p>10</p>
-                </div>
-            </div>
+
+            <div id="button-area"><br>
+                <label id="where-label"><b>What corner of the room are you in?</b></label><br>
+                <input type="radio" name="sensorclosest" value="north_west" required="required"> North West<br>
+                <input type="radio" name="sensorclosest" value="south_west"> South West<br>
+                <input type="radio" name="sensorclosest" value="north_east"> North East<br>
+                <input type="radio" name="sensorclosest" value="south_east"> South East<br>
+              </div>
+              
 
             <div class="slidecontainer"> <br>
                 <label id="occu-label"><b>Including yourself, how many people are in the room?</b></label><br>

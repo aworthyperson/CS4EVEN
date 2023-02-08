@@ -63,3 +63,18 @@ https://script.google.com/macros/s/AKfycbwd6f3tAo_zDYJ9ADX2kJfxv7J_1V2fFkWwUaCnK
                 <input type="checkbox" name="shoes" value="0.04"> Shoes<br>
                 <input type="checkbox" name="boots" value="0.05"> Boots<br>
               </div>
+
+
+                            <div class="slidecontainer"> <br>
+                <label id="where-label"><b>What sensor are you closest to in the room?</b></label><br>
+                <input type="range" name="sensorclosest" min="0" max="10" class="slider" value="0" step="1" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
+                <output>0 </output>
+                <div class="sliderticks">
+                    <p>0</p>
+                    <p>2</p>
+                    <p>4</p>
+                    <p>6</p>
+                    <p>8</p>
+                    <p>10</p>
+                </div>
+            </div>
