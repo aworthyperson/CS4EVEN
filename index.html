@@ -19,6 +19,7 @@
             });
             </script>
 
+
         <title> UW CS4EVN Thermal Comfort Survey</title> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <!-- <a href="https://aworthyperson.github.io/CS4EVN/thankyou" title="Thank you page">Thank you page</a> --> 
@@ -27,10 +28,10 @@
     </head>
 
     <body>
-
         <div id="heading">
             <h2 id=title>Record your indoor experience in CSE 605</h2>
-            <p id="description">Thank you for taking your time to help us improve indoor building environments</p>
+                <p id="description"> Please note, all questions pertain to your current comfort level in the room.  Thank you for taking your time to help us improve 
+                    indoor building environments. </p>
         </div>
 
         <div id="main">
@@ -51,19 +52,6 @@
                <input type="radio" name="thermal_preference" value="cooler" required="required"> Make cooler<br>
                <input type="radio" name="thermal_preference" value="no_change"> No change<br>
                <input type="radio" name="thermal_preference" value="warmer"> Make warmer<br>
-             </div>
-
-             <div id="button-area"><br>
-                <label id="aqacceptability-label"><b> How tolerable is the room's air quality (ex. stuffyness, cleanliness, odors)?</b></label><br>
-                <input type="radio" name="aq_acceptability" value="acceptable" required="required"> Acceptable<br>
-                <input type="radio" name="aq_acceptability" value="unacceptable"> Unacceptable<br>
-            </div>
-
-            <div id="button-area"><br>
-               <label id="ampreference-label"><b>If you could, how would you change the air movement speed to make the room more comfortable?</b></label><br>
-               <input type="radio" name="amovement_preference" value="less" required="required"> Less air speed (more stagnant)<br>
-               <input type="radio" name="amovement_preference" value="no_change"> No change (neutral)<br>
-               <input type="radio" name="amovement_preference" value="more"> More air speed (more drafty)<br>
              </div>
 
              <div class="slidecontainer"> <br>
@@ -93,9 +81,21 @@
                 </div>
             </div>
 
+             <div id="button-area"><br>
+                <label id="aqacceptability-label"><b> How tolerable is the room's air quality (ex. stuffyness, cleanliness, odors)?</b></label><br>
+                <input type="radio" name="aq_acceptability" value="acceptable" required="required"> Acceptable<br>
+                <input type="radio" name="aq_acceptability" value="unacceptable"> Unacceptable<br>
+            </div>
+
+            <div id="button-area"><br>
+               <label id="ampreference-label"><b>If you could, how would you change the air movement speed to make the room more comfortable?</b></label><br>
+               <input type="radio" name="amovement_preference" value="less" required="required"> Less air speed (more stagnant)<br>
+               <input type="radio" name="amovement_preference" value="no_change"> No change (neutral)<br>
+               <input type="radio" name="amovement_preference" value="more"> More air speed (more drafty)<br>
+             </div>
 
               <div class="slidecontainer"> <br>
-                <label id="walk-label"><b>How many minutes ago did you walk over 100 meters - the length of a football field (in minutes past)?</b></label><br>
+                <label id="walk-label"><b>How many minutes ago did you walk at least 100 meters - the length of a football field (in minutes past)?</b></label><br>
                 <input type="range" name="walk" min="0" max="150" class="slider" value="0" step="5" list="steplist" id="myRangeW" oninput="this.nextElementSibling.value = this.value">
                 <output>0 </output>
                 <div class="sliderticks">
